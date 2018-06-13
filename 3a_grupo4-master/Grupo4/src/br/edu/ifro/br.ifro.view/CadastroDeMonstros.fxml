@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="392.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.CadastroDeMonstrosController">
+   <children>
+      <ImageView fitHeight="728.0" fitWidth="1280.0">
+         <image>
+            <Image url="@../../../../../../../../3a_grupo4/Grupo4/src/br/edu/ifro/wallpaper-paper.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

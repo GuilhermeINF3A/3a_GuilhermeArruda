@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="602.0" fitWidth="959.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@br/edu/ifro/wallpaper-paper.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="297.0" layoutY="14.0" prefHeight="45.0" prefWidth="426.0" text="CRIAÇÃO DE NPC'S" textAlignment="CENTER">
+         <font>
+            <Font name="Algerian" size="40.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#804a23" />
+                  <Stop color="#432009" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="27.0" layoutY="134.0" text="Nome do NPC">
+         <font>
+            <Font name="Andalus" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="27.0" layoutY="182.0" text="Classe de NPC">
+         <font>
+            <Font name="Andalus" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="230.0" text="Raça do NPC">
+         <font>
+            <Font name="Andalus" size="18.0" />
+         </font>
+      </Label>
+      <TextField layoutX="27.0" layoutY="562.0" prefHeight="25.0" prefWidth="43.0" text="12">
+         <font>
+            <Font size="16.0" />
+         </font></TextField>
+      <Label alignment="TOP_LEFT" layoutX="100.0" layoutY="562.0" text="Carisma">
+         <font>
+            <Font name="Andalus" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="114.0" layoutY="330.0" text="Força">
+         <font>
+            <Font name="Andalus" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="98.0" layoutY="519.0" text="Sabedoria">
+         <font>
+            <Font name="Andalus" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="91.0" layoutY="472.0" text="Inteligência">
+         <font>
+            <Font name="Andalus" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="86.0" layoutY="424.0" text="Constituição">
+         <font>
+            <Font name="Andalus" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="102.0" layoutY="377.0" prefHeight="25.0" prefWidth="66.0" text="Destreza">
+         <font>
+            <Font name="Andalus" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="292.0" text="Status do NPC">
+         <font>
+            <Font name="Andalus" size="18.0" />
+         </font>
+      </Label>
+      <JFXTextField layoutX="142.0" layoutY="136.0">
+         <focusColor>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#804a23" />
+                  <Stop color="#432009" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </focusColor>
+      </JFXTextField>
+      <JFXTextField layoutX="142.0" layoutY="184.0">
+         <focusColor>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#804a23" />
+                  <Stop color="#432009" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </focusColor>
+      </JFXTextField>
+      <JFXTextField layoutX="142.0" layoutY="232.0">
+         <focusColor>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#804a23" />
+                  <Stop color="#432009" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </focusColor>
+      </JFXTextField>
+      <Label layoutX="323.0" layoutY="134.0" text="Itens no NPC">
+         <font>
+            <Font name="Andalus" size="18.0" />
+         </font>
+      </Label>
+      <TextField layoutX="27.0" layoutY="515.0" prefHeight="25.0" prefWidth="43.0" text="6">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="27.0" layoutY="468.0" prefHeight="25.0" prefWidth="43.0" text="+4">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="27.0" layoutY="420.0" prefHeight="25.0" prefWidth="43.0" text="18">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="27.0" layoutY="373.0" prefHeight="25.0" prefWidth="43.0" text="14">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="27.0" layoutY="326.0" prefHeight="25.0" prefWidth="43.0" text="7">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="188.0" layoutY="324.0" prefHeight="25.0" prefWidth="43.0" text="+3">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="188.0" layoutY="373.0" prefHeight="25.0" prefWidth="43.0" text="-1">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="188.0" layoutY="420.0" prefHeight="25.0" prefWidth="43.0" text="-6">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="188.0" layoutY="468.0" prefHeight="25.0" prefWidth="43.0" text="+2">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="188.0" layoutY="515.0" prefHeight="25.0" prefWidth="43.0" text="+4">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="188.0" layoutY="562.0" prefHeight="25.0" prefWidth="43.0" text="+0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <Label alignment="TOP_LEFT" layoutX="741.0" layoutY="134.0" prefHeight="25.0" prefWidth="58.0" text="Perícias">
+         <font>
+            <Font name="Andalus" size="18.0" />
+         </font>
+      </Label>
+      <JFXCheckBox checkedColor="#432009" layoutX="791.0" layoutY="407.0" text="Sobrevivência (Sab)" />
+      <JFXCheckBox checkedColor="#432009" layoutX="791.0" layoutY="348.0" text="Prestidigitação (Des)" />
+      <JFXCheckBox checkedColor="#432009" layoutX="791.0" layoutY="319.0" text="Persuasão (Car)" />
+      <JFXCheckBox checkedColor="#432009" layoutX="791.0" layoutY="288.0" text="Percepção (Sab)" />
+      <JFXCheckBox checkedColor="#432009" layoutX="791.0" layoutY="378.0" text="Religião (Int)" />
+      <JFXCheckBox checkedColor="#432009" layoutX="791.0" layoutY="258.0" text="Natureza (Int)" />
+      <JFXCheckBox checkedColor="#432009" layoutX="652.0" layoutY="349.0" text="História (Int)" />
+      <JFXCheckBox checkedColor="#432009" layoutX="652.0" layoutY="379.0" text="Intimidação (Car)" />
+      <JFXCheckBox checkedColor="#432009" layoutX="791.0" layoutY="230.0" text="Medicina (Sab)" />
+      <JFXCheckBox checkedColor="#432009" layoutX="652.0" layoutY="408.0" text="Intuição (Sab)" />
+      <JFXCheckBox checkedColor="#432009" layoutX="791.0" layoutY="172.0" text="Investigação (Int)" />
+      <JFXCheckBox checkedColor="#432009" layoutX="791.0" layoutY="201.0" text="Lidar com Animais (Sab)" />
+      <JFXCheckBox checkedColor="#432009" layoutX="652.0" layoutY="288.0" text="Blefar (Car)" />
+      <JFXCheckBox checkedColor="#432009" layoutX="652.0" layoutY="260.0" text="Atuação (Car)" />
+      <JFXCheckBox checkedColor="#432009" layoutX="652.0" layoutY="230.0" text="Atletismo (For)" />
+      <JFXCheckBox checkedColor="#432009" layoutX="652.0" layoutY="318.0" text="Furtividade (Des)" />
+      <JFXCheckBox checkedColor="#432009" layoutX="652.0" layoutY="201.0" text="Arcanismo (Int)" />
+      <JFXCheckBox checkedColor="#432009" layoutX="652.0" layoutY="173.0" text="Acrobacia (Des)" />
+      <TextArea layoutX="309.0" layoutY="173.0" prefHeight="169.0" prefWidth="306.0" />
+      <Button layoutX="334.0" layoutY="527.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="110.0" text="Cancelar">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="491.0" layoutY="527.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="110.0" text="Confirmar">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

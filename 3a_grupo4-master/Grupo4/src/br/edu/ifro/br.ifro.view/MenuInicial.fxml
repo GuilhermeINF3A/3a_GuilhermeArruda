@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="392.0" prefWidth="499.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.MenuInicialController">
+    <children>
+      <ImageView fitHeight="631.0" fitWidth="919.0" layoutX="-14.0" layoutY="-1.0">
+         <image>
+            <Image url="@wallpaper-paper.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="292.0" layoutY="22.0" prefHeight="75.0" prefWidth="336.0" text="RPG FêNIX" textAlignment="CENTER">
+         <font>
+            <Font name="Algerian" size="66.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#804a23" />
+                  <Stop color="#432009" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill></Label>
+      <JFXBadge layoutX="54.0" layoutY="59.0" />
+      <JFXButton layoutX="112.0" layoutY="315.0" prefHeight="58.0" prefWidth="151.0" text="lIVROS">
+         <ripplerFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#4a4949" />
+                  <Stop color="#804a23" offset="0.03065134099616858" />
+                  <Stop color="#432009" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </ripplerFill>
+         <font>
+            <Font name="Algerian" size="32.0" />
+         </font></JFXButton>
+      <JFXButton layoutX="112.0" layoutY="199.0" text="NoVA cAMPANHA">
+         <font>
+            <Font name="Algerian" size="32.0" />
+         </font>
+         <ripplerFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#4a4949" />
+                  <Stop color="#804a23" offset="0.03065134099616858" />
+                  <Stop color="#432009" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </ripplerFill>
+      </JFXButton>
+      <JFXButton layoutX="112.0" layoutY="258.0" prefHeight="57.0" prefWidth="230.0" text="cAMPANHAS">
+         <font>
+            <Font name="Algerian" size="31.0" />
+         </font>
+         <ripplerFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#4a4949" />
+                  <Stop color="#804a23" offset="0.03065134099616858" />
+                  <Stop color="#432009" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </ripplerFill></JFXButton>
+      <ImageView fitHeight="349.0" fitWidth="272.0" layoutX="586.0" layoutY="250.0">
+         <image>
+            <Image url="@FENIX.PNG" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>
