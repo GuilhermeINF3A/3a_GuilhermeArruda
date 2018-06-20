@@ -15,12 +15,12 @@
 
 <AnchorPane id="AnchorPane" prefHeight="392.0" prefWidth="499.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.MenuInicialController">
     <children>
-      <ImageView fitHeight="631.0" fitWidth="919.0" layoutX="-14.0" layoutY="-1.0">
+      <ImageView fitHeight="631.0" fitWidth="919.0" layoutX="7.0" layoutY="-2.0">
          <image>
-            <Image url="@wallpaper-paper.jpg" />
+            <Image url="@../../../../../../../../../3a_grupo4/Grupo4/src/br/edu/ifro/wallpaper-paper.jpg" />
          </image>
       </ImageView>
-      <Label layoutX="292.0" layoutY="22.0" prefHeight="75.0" prefWidth="336.0" text="RPG FêNIX" textAlignment="CENTER">
+      <Label layoutX="308.0" layoutY="26.0" prefHeight="75.0" prefWidth="336.0" text="RPG FêNIX" textAlignment="CENTER">
          <font>
             <Font name="Algerian" size="66.0" />
          </font>
@@ -73,9 +73,29 @@
                </stops>
             </RadialGradient>
          </ripplerFill></JFXButton>
-      <ImageView fitHeight="349.0" fitWidth="272.0" layoutX="586.0" layoutY="250.0">
+      <ImageView fitHeight="349.0" fitWidth="272.0" layoutX="595.0" layoutY="243.0">
          <image>
-            <Image url="@FENIX.PNG" />
+            <Image url="@../../../../../../../../../3a_grupo4/Grupo4/src/br/edu/ifro/FENIX.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="48.0" fitWidth="51.0" layoutX="73.0" layoutY="204.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../3a_grupo4/Grupo4/src/br/edu/ifro/crossbow.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="48.0" fitWidth="51.0" layoutX="73.0" layoutY="263.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../3a_grupo4/Grupo4/src/br/edu/ifro/crossbow.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="48.0" fitWidth="51.0" layoutX="73.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../3a_grupo4/Grupo4/src/br/edu/ifro/crossbow.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="294.0" fitWidth="316.0" layoutX="609.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../3a_grupo4/Grupo4/src/br/edu/ifro/BordaMedievalESQUERDA.png" />
          </image>
       </ImageView>
     </children>
