@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <ImageView fitHeight="680.0" fitWidth="1076.0" layoutX="-8.0" layoutY="-5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@wallpaper-paper.jpg" />
+         </image>
+      </ImageView>
+      <MenuBar layoutX="1.0" layoutY="-3.0" prefHeight="25.0" prefWidth="1066.0">
+         <menus>
+            <Menu mnemonicParsing="false" text="Funcionalidades">
+               <items>
+                  <MenuItem fx:id="btnHistoria" mnemonicParsing="false" text="História" />
+                  <MenuItem fx:id="btnHabilidades" mnemonicParsing="false" text="Habilidades" />
+                  <MenuItem fx:id="btnItens" mnemonicParsing="false" text="Itens" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>

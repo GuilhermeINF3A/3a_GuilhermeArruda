@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.CadastroDeNPCController">
+   <children>
+      <ImageView fitHeight="768.0" fitWidth="1040.0" layoutX="-3.0">
+         <image>
+            <Image url="@wallpaper-paper.jpg" />
+         </image>
+      </ImageView>
+      <MenuBar layoutX="-4.0" prefHeight="25.0" prefWidth="1040.0">
+         <menus>
+            <Menu mnemonicParsing="false" text="Funcionalidades">
+               <items>
+                  <MenuItem fx:id="btnHistoria" mnemonicParsing="false" text="História" />
+                  <MenuItem fx:id="btnHabilidades" mnemonicParsing="false" text="Habilidades" />
+                  <MenuItem fx:id="btnItens" mnemonicParsing="false" text="Itens" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+      <Button layoutX="830.0" layoutY="664.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="70.0" text="Calcelar" />
+      <Button layoutX="717.0" layoutY="663.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="70.0" text="Salvar" />
+      <TextField layoutX="505.0" layoutY="211.0" prefHeight="25.0" prefWidth="41.0" text="+12" />
+      <TextField layoutX="505.0" layoutY="240.0" prefHeight="0.0" prefWidth="41.0" text="+12" />
+      <TextField layoutX="505.0" layoutY="183.0" prefHeight="25.0" prefWidth="41.0" text="+12" />
+      <TextField layoutX="505.0" layoutY="507.0" prefHeight="25.0" prefWidth="41.0" text="+12" />
+      <TextField layoutX="505.0" layoutY="478.0" prefHeight="25.0" prefWidth="41.0" text="+12" />
+      <TextField layoutX="505.0" layoutY="449.0" prefHeight="25.0" prefWidth="41.0" text="+12" />
+      <TextField layoutX="505.0" layoutY="596.0" prefHeight="25.0" prefWidth="41.0" text="+12" />
+      <TextField layoutX="505.0" layoutY="565.0" prefHeight="25.0" prefWidth="41.0" text="+12" />
+      <TextField layoutX="505.0" layoutY="535.0" prefHeight="25.0" prefWidth="41.0" text="+12" />
+      <TextField layoutX="505.0" layoutY="684.0" prefHeight="25.0" prefWidth="41.0" text="+12" />
+      <TextField layoutX="505.0" layoutY="655.0" prefHeight="25.0" prefWidth="41.0" text="+12" />
+      <TextField layoutX="505.0" layoutY="625.0" prefHeight="25.0" prefWidth="41.0" text="+12" />
+      <TextField layoutX="505.0" layoutY="298.0" prefHeight="25.0" prefWidth="41.0" text="+12" />
+      <TextField layoutX="505.0" layoutY="359.0" prefHeight="25.0" prefWidth="41.0" text="+12" />
+      <TextField layoutX="505.0" layoutY="418.0" prefHeight="25.0" prefWidth="41.0" text="+12" />
+      <TextField layoutX="505.0" layoutY="389.0" prefHeight="25.0" prefWidth="41.0" text="+12" />
+      <TextField layoutX="505.0" layoutY="328.0" prefHeight="25.0" prefWidth="41.0" text="+12" />
+      <TextField layoutX="505.0" layoutY="270.0" prefHeight="25.0" prefWidth="41.0" text="+12" />
+      <Label alignment="TOP_LEFT" layoutX="424.0" layoutY="127.0" prefHeight="27.0" prefWidth="62.0" text="Perícias">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <JFXCheckBox checkedColor="#432009" layoutX="343.0" layoutY="684.0" text="Sobrevivência (Sab)" />
+      <JFXCheckBox checkedColor="#432009" layoutX="343.0" layoutY="625.0" text="Prestidigitação (Des)" />
+      <JFXCheckBox checkedColor="#432009" layoutX="343.0" layoutY="596.0" text="Persuasão (Car)" />
+      <JFXCheckBox checkedColor="#432009" layoutX="343.0" layoutY="565.0" text="Percepção (Sab)" />
+      <JFXCheckBox checkedColor="#432009" layoutX="343.0" layoutY="655.0" text="Religião (Int)" />
+      <JFXCheckBox checkedColor="#432009" layoutX="343.0" layoutY="535.0" text="Natureza (Int)" />
+      <JFXCheckBox checkedColor="#432009" layoutX="343.0" layoutY="359.0" text="História (Int)" />
+      <JFXCheckBox checkedColor="#432009" layoutX="343.0" layoutY="389.0" text="Intimidação (Car)" />
+      <JFXCheckBox checkedColor="#432009" layoutX="343.0" layoutY="507.0" text="Medicina (Sab)" />
+      <JFXCheckBox checkedColor="#432009" layoutX="343.0" layoutY="418.0" text="Intuição (Sab)" />
+      <JFXCheckBox checkedColor="#432009" layoutX="343.0" layoutY="449.0" text="Investigação (Int)" />
+      <JFXCheckBox checkedColor="#432009" layoutX="343.0" layoutY="478.0" text="Lidar com Animais (Sab)" />
+      <JFXCheckBox checkedColor="#432009" layoutX="343.0" layoutY="298.0" text="Blefar (Car)" />
+      <JFXCheckBox checkedColor="#432009" layoutX="343.0" layoutY="270.0" text="Atuação (Car)" />
+      <JFXCheckBox checkedColor="#432009" layoutX="343.0" layoutY="240.0" text="Atletismo (For)" />
+      <JFXCheckBox checkedColor="#432009" layoutX="343.0" layoutY="328.0" text="Furtividade (Des)" />
+      <JFXCheckBox checkedColor="#432009" layoutX="343.0" layoutY="211.0" text="Arcanismo (Int)" />
+      <JFXCheckBox checkedColor="#432009" layoutX="343.0" layoutY="183.0" text="Acrobacia (Des)" />
+      <JFXCheckBox checkedColor="#432009" layoutX="70.0" layoutY="416.0" text="Força">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </JFXCheckBox>
+      <JFXCheckBox checkedColor="#432009" layoutX="70.0" layoutY="448.0" text="Destreza">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </JFXCheckBox>
+      <JFXCheckBox checkedColor="#432009" layoutX="70.0" layoutY="577.0" text="Carisma">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </JFXCheckBox>
+      <JFXCheckBox checkedColor="#432009" layoutX="70.0" layoutY="481.0" text="Constituição">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </JFXCheckBox>
+      <JFXCheckBox checkedColor="#432009" layoutX="70.0" layoutY="513.0" text="Inteligiencia ">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </JFXCheckBox>
+      <JFXCheckBox checkedColor="#432009" layoutX="70.0" layoutY="545.0" text="Sabedoria">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </JFXCheckBox>
+      <TextField layoutX="217.0" layoutY="161.0" prefHeight="27.0" prefWidth="30.0" text="+1" />
+      <Label alignment="TOP_LEFT" layoutX="436.0" layoutY="47.0" prefHeight="45.0" prefWidth="257.0" text="ficha de NPC" textAlignment="CENTER">
+         <font>
+            <Font name="Algerian" size="40.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#803924" />
+                  <Stop color="#432009" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Label>
+      <JFXRadioButton layoutX="769.0" layoutY="473.0" text="Terceira">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </JFXRadioButton>
+      <JFXRadioButton layoutX="769.0" layoutY="443.0" text="Segunda">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </JFXRadioButton>
+      <JFXRadioButton layoutX="769.0" layoutY="413.0" text="Primeira">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </JFXRadioButton>
+      <Label alignment="TOP_LEFT" layoutX="784.0" layoutY="493.0" prefHeight="20.0" prefWidth="98.0" text="Teste De Morte">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField layoutX="209.0" layoutY="610.0" prefHeight="25.0" prefWidth="30.0" text="+2" />
+      <Label alignment="TOP_LEFT" layoutX="58.0" layoutY="608.0" prefHeight="27.0" prefWidth="143.0" text="Sabedoria Passiva">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField layoutX="659.0" layoutY="413.0" prefHeight="25.0" prefWidth="66.0" text="1d8">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <Label alignment="TOP_LEFT" layoutX="659.0" layoutY="448.0" prefHeight="17.0" prefWidth="82.0" text="Dados de vida">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="660.0" layoutY="501.0" prefHeight="20.0" prefWidth="64.0" text="Vida atual">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <JFXTextField layoutX="660.0" layoutY="468.0" prefHeight="30.0" prefWidth="97.0" text="8">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField layoutX="660.0" layoutY="528.0" prefHeight="30.0" prefWidth="99.0" text="8">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextField>
+      <Label alignment="TOP_LEFT" layoutX="660.0" layoutY="561.0" prefHeight="20.0" prefWidth="107.0" text="Vida temporaria">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="794.0" layoutY="176.0" prefHeight="25.0" prefWidth="54.0" text="Desloc">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="713.0" layoutY="174.0" prefHeight="25.0" prefWidth="72.0" text="Class arm">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="633.0" layoutY="174.0" prefHeight="25.0" prefWidth="54.0" text="Inicitiva">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField layoutX="793.0" layoutY="131.0" prefHeight="43.0" prefWidth="43.0" text="9" />
+      <TextField layoutX="713.0" layoutY="131.0" prefHeight="43.0" prefWidth="43.0" text="17" />
+      <TextField layoutX="633.0" layoutY="131.0" prefHeight="43.0" prefWidth="43.0" text="+1" />
+      <TextField layoutX="63.0" layoutY="272.0" prefHeight="25.0" prefWidth="30.0" text="9" />
+      <TextField layoutX="63.0" layoutY="308.0" prefHeight="25.0" prefWidth="30.0" text="12" />
+      <TextField layoutX="63.0" layoutY="344.0" prefHeight="25.0" prefWidth="30.0" text="12" />
+      <TextField layoutX="63.0" layoutY="237.0" prefHeight="25.0" prefWidth="30.0" text="14" />
+      <TextField layoutX="63.0" layoutY="197.0" prefHeight="25.0" prefWidth="30.0" text="11" />
+      <TextField layoutX="63.0" layoutY="161.0" prefHeight="25.0" prefWidth="30.0" text="9" />
+      <JFXTextField layoutX="636.0" layoutY="302.0" prefHeight="37.0" prefWidth="93.0" text="Humano">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField layoutX="740.0" layoutY="302.0" prefHeight="37.0" prefWidth="107.0" text="L.B">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField layoutX="749.0" layoutY="212.0" prefHeight="39.0" prefWidth="93.0" text="Acolito">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField layoutX="859.0" layoutY="302.0" prefHeight="25.0" prefWidth="98.0" text="0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField layoutX="861.0" layoutY="214.0" prefHeight="25.0" prefWidth="98.0" text="Gubertinho">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField layoutX="636.0" layoutY="212.0" prefHeight="39.0" prefWidth="93.0" text="Ladino">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXTextField>
+      <Label alignment="TOP_LEFT" layoutX="636.0" layoutY="341.0" prefHeight="27.0" prefWidth="41.0" text="Raça">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="740.0" layoutY="341.0" prefHeight="27.0" prefWidth="79.0" text="Tendencia">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="859.0" layoutY="341.0" prefHeight="27.0" prefWidth="107.0" text="Pontos de XP">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="861.0" layoutY="253.0" prefHeight="27.0" prefWidth="107.0" text="Nome NPC">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="749.0" layoutY="253.0" prefHeight="27.0" prefWidth="107.0" text="Antecedente">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="636.0" layoutY="253.0" prefHeight="27.0" prefWidth="64.0" text="Classe">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="66.0" layoutY="381.0" prefHeight="25.0" prefWidth="143.0" text="Teste de Resistência">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="56.0" layoutY="126.0" prefHeight="27.0" prefWidth="174.0" text="Bonus de Proficiência">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField layoutX="236.0" layoutY="129.0" prefHeight="25.0" prefWidth="30.0" text="+2" />
+      <TextField layoutX="217.0" layoutY="198.0" prefHeight="25.0" prefWidth="30.0" text="+1" />
+      <TextField layoutX="217.0" layoutY="237.0" prefHeight="25.0" prefWidth="30.0" text="+3" />
+      <TextField layoutX="217.0" layoutY="274.0" prefHeight="25.0" prefWidth="30.0" text="+0" />
+      <TextField layoutX="217.0" layoutY="311.0" prefHeight="25.0" prefWidth="30.0" text="+2" />
+      <TextField layoutX="216.0" layoutY="349.0" prefHeight="25.0" prefWidth="30.0" text="+2" />
+      <Label alignment="TOP_LEFT" layoutX="104.0" layoutY="345.0" text="Carisma">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="105.0" layoutY="161.0" text="Força">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="102.0" layoutY="308.0" text="Sabedoria">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="104.0" layoutY="271.0" text="Inteligência">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="104.0" layoutY="236.0" text="Constituição">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="104.0" layoutY="196.0" prefHeight="27.0" prefWidth="71.0" text="Destreza">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

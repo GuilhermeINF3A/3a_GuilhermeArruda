@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="574.0" prefWidth="747.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.LivrosController">
+   <children>
+      <ImageView fitHeight="580.0" fitWidth="819.0" layoutY="22.0">
+         <image>
+            <Image url="@wallpaper-paper.jpg" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="118.0" layoutY="290.0" onMouseClicked="#abrirGM">
+         <image>
+            <Image url="@master-of-ceremonies.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="118.0" layoutY="385.0" onMouseClicked="#abrirMM">
+         <image>
+            <Image url="@goblin.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="33.0" layoutY="70.0">
+         <image>
+            <Image url="@books%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="118.0" layoutY="196.0" onMouseClicked="#abrirLdj">
+         <image>
+            <Image url="@knight.png" />
+         </image>
+      </ImageView>
+      <MenuBar layoutX="-1.0" prefHeight="25.0" prefWidth="819.0">
+         <menus>
+            <Menu mnemonicParsing="false" text="Funcionalidades">
+               <items>
+                  <MenuItem fx:id="btnHistoria" mnemonicParsing="false" text="História" />
+                  <MenuItem fx:id="btnHabilidades" mnemonicParsing="false" text="Habilidades" />
+                  <MenuItem fx:id="btnItens" mnemonicParsing="false" text="Itens" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+      <Label layoutX="222.0" layoutY="220.0" text="Livro Do Jogador">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="222.0" layoutY="314.0" prefHeight="27.0" prefWidth="130.0" text="Livro Do Mestre">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="222.0" layoutY="409.0" text="Manual do monstro">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="536.0" layoutY="515.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="70.0" text="Calcelar" />
+      <Button layoutX="434.0" layoutY="515.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="70.0" text="Salvar" />
+      <Label layoutX="172.0" layoutY="90.0" text="Livros do D&amp;d 5 Edição">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
